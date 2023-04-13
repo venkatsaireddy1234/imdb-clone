@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar";
 import Header from "../components/Header";
 import "./globals.css";
 
@@ -10,9 +11,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-          {/* {NavBar}
+          {/* 
         {Search} */}
           <Header />
+          <NavBar />
           {children}
       </body>
     </html>
