@@ -11,15 +11,13 @@ export default function Header() {
         <MenuBar title="HOME" address="/" Icon={AiFillHome} />
         <MenuBar title="ABOUT" address="/about" Icon={BsFillInfoCircleFill} />
       </div>
-      <div>
+      <div className="flex items-center space-x-5">
         <Link href="">
-          <h2 className=" ">
+          <h2 className="text-2xl">
             <span className="font-bold bg-amber-500 px-1 py-1 rounded-lg mr-1">
-              IMDB
+              IMDb
             </span>
-            <span className="">
-              Clone
-            </span>
+            <span className="hidden sm:inline text-xl">Clone</span>
           </h2>
         </Link>
       </div>
